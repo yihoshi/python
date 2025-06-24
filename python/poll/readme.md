@@ -199,17 +199,3 @@ realtime-voting/
 ​​WebSocket​​：低延迟实时通信协议，适合投票场景
 数据库选型
 ​​MySQL​​：成熟的关系型数据库，满足事务性需求
-11. 演示截图
-投票界面
-![alt text](image.png)
-实时更新演示（两个窗口）
-![alt text](image-1.png)
-![alt text](image-2.png)
-API文档
-![alt text](image-3.png)
-12. 注意事项
-​​数据库安全​​：生产环境不要使用root用户
-​​投票限制​​：当前仅前端限制重复投票，生产环境应增加后端验证
-​​跨域问题​​：开发环境已配置CORS，生产环境应指定具体域名
-​​性能优化​​：高并发场景下应考虑使用Redis缓存投票结果
-​​WebSocket连接​​：生产环境应考虑使用WebSocket负载均衡
